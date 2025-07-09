@@ -1,6 +1,7 @@
 import json
 import re
-import requests
+import platform
+if platform.system() == 'Linux': import resource
 import traceback
 
 from argparse import ArgumentTypeError
